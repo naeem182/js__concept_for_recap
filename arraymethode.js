@@ -26,3 +26,7 @@ console.log(_2000erbeshiPrice);
 ///filter by include
 const specificName = product.filter(p => p.name.includes('n'))
 console.log(specificName)
+/////////
+//find kaser 1 ta dey
+const _4000erUporerta = product.find(p => p.price >= 4000)
+console.log('_4000erUporerta', _4000erUporerta)
