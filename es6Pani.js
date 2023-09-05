@@ -20,3 +20,15 @@ const calculate = (x, y) => {
 }
 calculate(12, 3);
 /////
+//spread operator
+const num = [1, 2, 3, 4, 5, 5, 6,]
+let num1 = num//evabe copy kra righyt na
+console.log(num1)
+num.push(111, 122)
+console.log(num1)//update hye gese
+const num2 = [...num]
+console.log(num2)
+num.push(33, 44);
+console.log(num2)//ager copy ty pisi..update hay nai
+
+
