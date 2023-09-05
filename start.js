@@ -85,3 +85,6 @@ for (let i of num) {
 const moviekey = Object.keys(movie)
 const movievalues = Object.values(movie)
 console.log(moviekey, movievalues)
+//templete string
+const tempstring = `ki kahini ${movie.name} movier nam gula halo ${movie.movies}`
+console.log(tempstring)
