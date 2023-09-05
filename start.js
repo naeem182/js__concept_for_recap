@@ -49,8 +49,39 @@ console.log(num.length)
 //loop
 for (let i = 0; i < num.length; i++) {
     const number = num[i];
-    console.log(number);
+    console.log("for loop num", number);
+}
+//simple function
+function multiply(n1, n2) {
+    const mul = n1 * n2
+    return mul;
+}
+const mulout = multiply(2, 8)
+console.log("multiply output", mulout)
+
+//object
+//acces property byname
+const movie = {
+    name: 'bangla movie',
+    // age=23;
+    movies: ['king khan', 'buker opor pahar']
+
+}
+console.log(movie.name);//direct by prooperty
+console.log(movie['name']);//access via  prooperty name string
+
+console.log(movie.movies);
+//for in
+for (const key in movie) {
+    console.log("for in in obj", key, movie[key])
 }
 
+for (let i of num) {
+    const arrykey = i;
+    console.log('for of in array', arrykey)
 
-
+}
+//object keys and values
+const moviekey = Object.keys(movie)
+const movievalues = Object.values(movie)
+console.log(moviekey, movievalues)
