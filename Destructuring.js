@@ -10,3 +10,14 @@ const numbers = [42, 65, 69];
 //3
 const [, y] = numbers;
 console.log(y)
+
+/////////
+//by function  
+function boxing(n1, n2) {
+    const nums = [n1, n2]
+
+    return nums;
+}
+console.log(boxing(123, 145))
+const [one, two] = boxing(858, 3494);
+console.log(one, two)
