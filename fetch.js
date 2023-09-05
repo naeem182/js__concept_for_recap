@@ -23,19 +23,20 @@ console.log(movieobj)
 // //     // .then(json => console.log(json))
 
 
-
+/////////////////////////
 // const url = 'https://jsonplaceholder.typicode.com/todos/1'
 
 // // fetch(url)
 // //     .then(response => response.json())
 // //     .then(json => console.log(json))
 
-
+/////////////
 // function loadData() {
 //     fetch(url)
 //         .then(response => response.json())
 //         .then(data => console.log(data))
 // }
+///////////////////
 // const loadcategory = async () => {
 
 //     const res = await fetch('https://openapi.programming-hero.com/api/news/categories');
