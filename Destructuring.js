@@ -61,3 +61,5 @@ const employee = {
 }
 const { machine, ide } = employee
 console.log(ide, machine)
+const { weight, address } = employee.specification;
+const { brand } = employee?.specification?.watch;
