@@ -36,18 +36,18 @@ console.log(movieobj)
 //         .then(response => response.json())
 //         .then(data => console.log(data))
 // }
-const loadcategory = async () => {
+// const loadcategory = async () => {
 
-    const res = await fetch('https://openapi.programming-hero.com/api/news/categories');
+//     const res = await fetch('https://openapi.programming-hero.com/api/news/categories');
 
-    const data = await res.json()
-    const tab_Container = document.getElementById('tab_Container');
-    data.data.news_category.slice(0, 3).forEach((categories) => {
-        const div = document.createElement('div');
-        div.innerHTML = `       
-        <a class="tab" onclick="handleLoadNews('${categories.category_id}')">Tab ${categories.category_name}</a>       
-        `
-        tab_Container.appendChild(div)
+//     const data = await res.json()
+//     const tab_Container = document.getElementById('tab_Container');
+//     data.data.news_category.slice(0, 3).forEach((categories) => {
+//         const div = document.createElement('div');
+//         div.innerHTML = `
+//         <a class="tab" onclick="handleLoadNews('${categories.category_id}')">Tab ${categories.category_name}</a>
+//         `
+//         tab_Container.appendChild(div)
 
 
-    });
+//     });
