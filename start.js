@@ -22,4 +22,35 @@ else {
 
     console.log('not your father')
 }
+//and operation
+if (fatherfirstname === "shaid" || fatherlastname === "mia") {
+
+    console.log("not your father")
+
+}
+
+else {
+
+    console.log(' your father')
+}
+
+//Array declare
+//index
+//length
+//push
+const num = [2, 4, 4, 555, 5545, 5, 5];
+console.log(num)
+const numlength = num.length
+console.log(numlength)
+num.push(2, 4)
+console.log(num)
+console.log(num.length)
+
+//loop
+for (let i = 0; i < num.length; i++) {
+    const number = num[i];
+    console.log(number);
+}
+
+
 
