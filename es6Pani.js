@@ -32,3 +32,4 @@ num.push(33, 44);
 console.log(num2)//ager copy ty pisi..update hay nai
 
 
+
