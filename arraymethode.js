@@ -11,4 +11,12 @@ console.log(brand)
 //price map
 const price = product.map(product => product.price)
 console.log(price)
-// const brandforeach = ()
+
+////////////////////////////
+//for each..array dey na....single line
+product.forEach(product => console.log('band name by forEach', product.brand))
+product.forEach(product => console.log('color name by forEach', product.color))
+//multyline forEach
+product.forEach(p => {
+    console.log('band name by forEach multyline', p.brand)
+})
